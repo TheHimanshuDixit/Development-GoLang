@@ -1,7 +1,8 @@
 package main
 
-import "fmt"
+import "mylearning/myutil" // Importing the custom package
+// main.go
 
 func main() {
-    fmt.Println("Hello, World!")
+	myutil.PrintMessage() // Calling the function from the custom package
 }
